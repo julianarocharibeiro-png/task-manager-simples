@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TaskManagerTest {
 
     @Test
+
     void deveAdicionarTarefa() {
         TaskManager manager = new TaskManager();
         Task t = new Task("Estudar GitHub");

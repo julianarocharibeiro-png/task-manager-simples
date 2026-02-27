@@ -5,6 +5,7 @@ import java.util.List;
 
 public class TaskManager {
 
+
     private final List<Task> tarefas = new ArrayList<>();
 
     public void adicionarTarefa(Task tarefa) {
